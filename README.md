@@ -12,3 +12,8 @@ Features:
 - Styling is done through CSS and bootstrap. The application also makes use of google fonts.
 - The application contains start and pause button to start and pause the game as well as a controls button to display the controls for playing the game in a popup window.
 - The application also displays the next tetrimino which will fall from the top.
+
+Play the game!
+
+Use the following link
+https://codepen.io/sidak-bhatia/full/MWmvXYY
