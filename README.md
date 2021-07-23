@@ -10,5 +10,5 @@ Features:
 - The game also contains levels. As score increases and reaches a given threshold, the level rises too and difficulty increases. This is achieved by making the speed at which tetriminos fall faster. This is achieved by using setInterval() functionality in javascript DOM.
 - The user could also move the tetriminos left and right as they fall using the left and right keys on the keyboard. He could also rotate the tetriminos using the up key.
 - Styling is done through CSS and bootstrap. The application also makes use of google fonts.
-- The application contains start and pause button to start and pause the game as well asa controls button to display the controls for playing the game in a popup window.
+- The application contains start and pause button to start and pause the game as well as a controls button to display the controls for playing the game in a popup window.
 - The application also displays the next tetrimino which will fall from the top.
