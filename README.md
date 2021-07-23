@@ -1,4 +1,4 @@
-# tetris
+# Tetris
 ﻿Introduction:
 
 A simple Tetris game created using html,CSS(with a little bit of bootstrap) and Vanilla javascript. The object of the game is to score as many points by making horizontal rows of boxes. The game ends when the tetriminos stack to the top.
