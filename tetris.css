@@ -1,0 +1,113 @@
+body{
+    background-image: url(https://data.1freewallpapers.com/download/starry-sky-night-dark-sky-stars-2560x1440.jpg);
+    color: white;
+    background-size: cover;
+	height:100%;
+    width: 100%;
+    text-align: center;
+}
+.grid{
+    box-sizing: content-box;
+    width: 200px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    border-width: 0.1em;
+  border-style: solid;
+  border-image: 
+  linear-gradient(
+    to top, 
+    red, 
+    blue
+  ) 1 100%;
+  margin: 0 2.5em;
+}
+.grid div{
+    height: 20px;
+    width: 20px;
+}
+.tetri{
+    box-shadow: 1px 1px 1px 1px white;
+}
+#next
+{
+    box-sizing: content-box;
+    width: 80px;
+    height:80px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+#next div{
+    height: 20px;
+    width: 20px;
+}
+#main2
+{
+display:flex;
+flex-direction: row;
+justify-content: center;
+}
+.box{
+    display:flex ;
+    flex-direction: column;
+    justify-content:space-around;
+    align-content: center;
+    align-items: center;
+}
+h1{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 4.2rem;
+    font-weight: 500;
+    margin-bottom: 0.3em;
+}
+h2{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 3rem;
+}
+h3{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 2rem;
+}
+#control-details{
+    position: fixed;
+    display: none;
+    width: 100vw;
+    height: 100vh;
+    background-color:rgb(0,0,0,0.4);
+    backdrop-filter:blur(6px);
+}
+#control-container
+{
+    margin-top: 10%;
+    font-size: large;
+    font-weight: 900;
+}
+.leftview{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#keyboard{
+    margin: 2em 0;
+}
+.mybtn{
+    border-radius: 0.6em;
+}
+#close:hover{
+    font-size: larger;
+}
+.pause{
+    visibility:collapse;
+}
+@media screen and (max-width: 450px) {
+   .grid{
+       width: 50px;
+       height: 100px;
+   }
+   .grid div{
+       width: 5px;
+       height:5px ;
+   }
+  }
+  
